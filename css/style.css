@@ -5,5 +5,34 @@
 }
 
 /* inizio common */
-
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
 /* fine common */
+
+/* inizio debug */
+header{
+    background-color: lightcoral;
+}
+nav ul{
+    background-color: lightcyan;
+}
+/* fine debug */
+
+/* inizio header */
+header{
+    width: 100%;
+    height: 80px;
+}
+nav ul li{
+    display: inline;
+}
+
+nav ul{
+    width: 30%;
+    /* height: 100%; */
+}
+/* fine header */
