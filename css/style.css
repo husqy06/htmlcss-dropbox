@@ -47,6 +47,19 @@ a{
     width: 80%; 
     margin: 0 auto; 
 }
+h3{
+    font-weight: 600;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+h4{
+    font-weight: 600;
+    font-size: 1.3vw;
+    margin-bottom: 1vw;
+}
+.btn-2{
+    padding: 0.8vw 4.2vw;
+}
 /* fine common */
 
 
@@ -132,7 +145,7 @@ nav ul{
 }
 /* fine jumbotron */
 
-/* inizio piano vendite */
+/* inizio form fattura */
 .fattura-form h2{
     font-size: 3vw;
     margin-bottom: 3vw;
@@ -155,11 +168,12 @@ nav ul{
 .radio-label{
     margin-right: 1vw;
 }
+/* inizio form fattura */
 
-/* piani business */
- 
+/* inizio piani business */
+
 .plan{
-    width: 30%;
+    width: 30.5%;
     border: 1px solid gray;
     display: inline-block;
     height: 70vw;
@@ -179,16 +193,6 @@ nav ul{
     display: block;
     margin-bottom: 1vw;
 }
-.plan-type h3{
-    font-weight: 600;
-    font-size: 2vw;
-    margin-bottom: 1vw;
-}
-.plan-type h4{
-    font-weight: 600;
-    font-size: 1.3vw;
-    margin-bottom: 1vw;
-}
 #time{
     display: block;
     color: gray;
@@ -198,9 +202,8 @@ nav ul{
 .plan-type{
     padding: 2vw;
 }
-.plan-type button{
+.plan-type .btn-2{
     margin: 2vw 0 2vw 0;
-    padding: 0.8vw 4.2vw;
 }
 #acquista-ora{
     color: #0061ff;
@@ -218,4 +221,18 @@ nav ul{
     display: block;
     margin: 2vw 0;
 }
- 
+/* inizio piani business */
+
+/* inizio contatta ufficio */
+.contact-office{
+    margin-top: 4vw;
+    border: 1px solid gray;
+}
+.co-container{
+    padding: 2vw;
+}
+
+.co-container p{
+    margin-top: 2vw;
+}
+/* fine contatta ufficio */
