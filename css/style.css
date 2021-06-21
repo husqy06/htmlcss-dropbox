@@ -236,3 +236,27 @@ nav ul{
     margin-top: 2vw;
 }
 /* fine contatta ufficio */
+
+/* inizio trova un partner */
+.trova-partner{
+    margin-top: 15vw;
+}
+.tp-img{
+    width: 55%;
+}
+.tp-img img{
+    max-width: 100%;
+}
+.tp-description{
+    width: 45%;
+    padding: 3vw 2vw 3vw 3vw;
+}
+.tp-description p{
+    margin: 2vw 0;
+    line-height: 2vw;
+}
+.tp-description .btn{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
