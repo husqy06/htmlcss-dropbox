@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
+
 /* inizio common */
+html{
+    scroll-behavior: smooth;
+}
 a{
     text-decoration: none;
     color: black;
@@ -23,25 +27,37 @@ a{
 .container{
     font-family: 'Open Sans', sans-serif;
 }
+.btn{
+    padding: 0.4vw 1.3vw;
+    background-color:#0061ff;
+    color: white; 
+    font-size: 1vw;
+    border: none;
+    margin: 0.5vw 0;
+}
+.btn:hover{
+    background-color: #3B85FF;;
+}
 /* fine common */
+
 
 /* inizio debug */
 header{
     /* background-color: lightcoral; */
-    border-bottom: 2px solid #dcdcdc;
-} 
-nav ul{
-    /* background-color: lightcyan; */
+    border-bottom: 1px solid #dcdcdc;
 }
 /* fine debug */
+
 
 /* inizio header */
 header{
     width: 100%;
     position: fixed;
+    z-index: 99; 
     top: 0;
-    font-size: 1.1vw;
+    font-size: 1vw;
     font-weight: 500;
+    background-color: white;
 }
 nav ul li{
     display: inline-block;
@@ -49,10 +65,10 @@ nav ul li{
 } 
 nav ul li:not(:first-child):hover{
     border-bottom: 2px solid black;
-}
+}   
 nav ul{
-    height: 5vw;
-    line-height: 5vw;
+    height: 4.5vw;
+    line-height: 4.5vw;
 }
 .float-right li{
     float:right;
@@ -63,8 +79,48 @@ nav ul{
     vertical-align: middle;
 }
 #inizia{
-    padding: 0.3vw 1.3vw;
-    background-color: #3B85FF;
+     /*#3B85FF;*/
     color: white;
 }
 /* fine header */
+
+
+/* inizio main */
+/* inizio jumbotron */
+.jbt-orizontal{
+    font-size: 3.7vw;
+    margin-bottom: 3vw;
+}
+.main-container{
+    position: relative; 
+    bottom:-6vw;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 4vw;
+}
+.jumbotron{
+    background-color: #b4d0e7;
+}
+.jbt-vertical1{
+    width: 30%;
+    padding: 0 2vw 2vw 0;
+    font-size: 1vw;
+    font-weight: 600;
+}
+.jbt-vertical1 p:first-child{
+    margin: 0 0 2vw 0;
+}
+.jbt-vertical1 span{
+    display: inline-block;
+    font-weight: 600;
+}
+.jbt-vertical1 i{
+    font-size: 3vw;
+    margin-top: 3vw;
+}
+.jbt-vertical2{
+    width: 70%;
+}
+.jbt-vertical2 img{
+    max-width: 100%;
+}
