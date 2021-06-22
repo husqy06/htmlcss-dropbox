@@ -116,6 +116,26 @@ nav ul{
     height: auto;
     vertical-align: middle;
 }
+.supporto{
+    position: relative;
+}
+#suppover{
+    display: none;
+    position: fixed;
+    border: 1px solid #dcdcdc;
+    left: 64%;
+    text-align: center;
+    z-index: 4;
+    background-color: white;
+    padding: 0.3vw;
+}
+#suppover a{
+    display: block;
+}
+.supporto:hover #suppover{
+    display: block;
+}
+
 /* fine header */
 
 
@@ -380,12 +400,14 @@ nav ul{
     width: 50%;
 }
 /* fine dropbox team */
-.domande div{
+
+/* inizio domande frequenti */
+.container-dom{
     font-weight: 600;
     padding: 2vw 0;
     border-bottom: 1px solid gray;
 }
-.domande div:first-of-type{
+.container-dom:first-of-type{
     border-top: 1px solid gray;
     margin-top: 3vw;
 }
@@ -393,17 +415,44 @@ nav ul{
     font-size: 1.3vw;
     margin-right: 2vw;
 }
-.container-dom{
-    position: relative;
-}
 .risposte{
+    margin-top: 2vw;
     display: none;
-    position: absolute;
+    color: gray;
 }
 .domande{
     margin-bottom: 5vw;
 }
-.domande> a:hover .risposte{
+.container-dom:hover .risposte{
     display: block;
     border: none;
 }
+/* fine domande frequenti */
+
+/* fine main */
+
+
+/* inizio footer */
+footer{
+    background-color: black;
+    color: white;
+    font-size: 1vw;
+    padding: 3vw;
+}
+
+footer ul{
+    display: inline-table;
+    margin: 3vw 4vw 5vw;
+}
+footer h5{
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+}
+.bottom-footer{
+    color: gray;
+    margin-left: 4vw;
+}
+.bottom-footer hr{
+    width: 9%;
+}
+/* fine footer */
