@@ -36,8 +36,21 @@ a{
     border: none;
     margin: 0.5vw 0;
 }
+.btn-2{
+    padding: 0.8vw 4.2vw;
+}
 .btn:hover{
     background-color: #3B85FF;;
+}
+.btn-3{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.btn-3:hover{
+    border: 1px solid gray;
+    color: gray;
+    background-color: white;
 }
 .w-90{
     width: 90%; 
@@ -57,20 +70,21 @@ h4{
     font-size: 1.3vw;
     margin-bottom: 1vw;
 }
-.btn-2{
-    padding: 0.8vw 4.2vw;
+ul{
+    list-style: none;
+}
+h2{
+    font-size: 3vw;
+    margin-bottom: 3vw;
+}
+#center{
+    margin: 0 3vw;
+}
+hr{
+    margin: 2vw 0;
+    width: 20%;
 }
 /* fine common */
-
-
-/* inizio debug */
-/* header{
-    background-color: lightcoral; 
-}
-.w-80{
-    background-color: lightcyan;
-} */
-/* fine debug */
 
 
 /* inizio header */
@@ -146,10 +160,6 @@ nav ul{
 /* fine jumbotron */
 
 /* inizio form fattura */
-.fattura-form h2{
-    font-size: 3vw;
-    margin-bottom: 3vw;
-}
 .fattura-form{
     margin-bottom: 3vw;
 }
@@ -172,6 +182,13 @@ nav ul{
 
 /* inizio piani business */
 
+.plan-type li{
+    margin: 1vw 0 0 1vw;
+    margin-bottom: 2vw;
+}
+.plan-type  ul i{
+    margin-left: -1.2vw;
+}
 .plan{
     width: 30.5%;
     border: 1px solid gray;
@@ -186,8 +203,8 @@ nav ul{
     border-bottom: 1px solid gray;
     padding: 1vw;
 }
-#plan-center{
-    margin: 0 3vw;
+.plan-type  ul{
+    margin-top: 2vw;
 }
 .feature{
     display: block;
@@ -208,10 +225,6 @@ nav ul{
 #acquista-ora{
     color: #0061ff;
     font-weight: 600;
-}
-.plan-type hr{
-    margin: 2vw 0;
-    width: 20%;
 }
 .fa-check{
     color: #0061ff;
@@ -240,6 +253,7 @@ nav ul{
 /* inizio trova un partner */
 .trova-partner{
     margin-top: 15vw;
+    margin-bottom: 6vw;
 }
 .tp-img{
     width: 55%;
@@ -255,8 +269,141 @@ nav ul{
     margin: 2vw 0;
     line-height: 2vw;
 }
-.tp-description .btn{
-    background-color: white;
-    color: black;
-    border: 1px solid black;
+/* fine trova un partner */
+
+/* inizio operazioni Dropbox */
+.operation-dropbox{
+    margin-bottom: 10vw;
+}
+.operation-container{
+    display: inline-block;
+    width: calc((100% / 3) - 2.2vw);
+    margin-bottom: 4vw;
+}
+.operation-container img{
+    max-width: 100%;
+}
+.operation-container h3{
+    margin-bottom: 2vw;
+}
+/* fine operazioni Dropbox */
+
+/* inizio dropbox team */
+.dropbox-team a{
+    color: #0061ff;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.dropbox-team-title{
+    margin-bottom: 4vw;
+}
+.team-logo{
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    background-color: lightgreen;
+}
+.team-description{
+    width: calc(100% - 60vw);
+    height: 30vw;
+    padding: 3vw;
+    background-color: #F5F5F5;
+    overflow-y:auto;
+    font-weight: 600;
+}
+.team-description img{
+    width: 9vw;
+}
+.team-description p{
+    margin-bottom: 2vw;
+}
+.logo-container{
+    text-align: center;
+    line-height: 15vw;
+    position: absolute; 
+    display: inline-block;
+    height: 15vw;
+    width: 15vw;
+}
+.lc1{
+    top: 0;
+    left: 0;
+    background-color: #A2D39B;
+    border: 1vw solid rgba(255, 255, 255, 0.5);
+}
+.lc2{
+    top: 0;
+    right: 0;
+    background-color: #61082B;
+}
+.lc3{
+    bottom: 0;
+    left: 0;
+    background-color: #0093CE;
+}
+.lc4{
+    bottom: 0;
+    right: 0;
+    background-color: #FF1C1C;
+}
+.team-logo2 .lc1{
+    background-color: #D5001F;
+    border: none;
+}
+.team-logo2 .lc2{
+    background-color: #B4D0E7;
+}
+.team-logo2 .lc3{
+    background-color: #0D2481;
+}
+.team-logo2 .lc4{
+    background-color: #FFD830;
+}
+.logo-container img{
+    max-width: 65%;
+    vertical-align: middle;
+    filter: invert(1);
+}
+.team-bottom{
+    background-color: #b4d0e7;
+    color: #61082B;
+    margin-bottom: 10vw;
+}
+.team-bottom button{
+    border: none;
+}
+.team-bottom button:hover{
+    border: none;
+}
+.team-bottom .float-left{
+    margin: 6vw 0 4vw 0;
+    width: 50%;
+}
+/* fine dropbox team */
+.domande div{
+    font-weight: 600;
+    padding: 2vw 0;
+    border-bottom: 1px solid gray;
+}
+.domande div:first-of-type{
+    border-top: 1px solid gray;
+    margin-top: 3vw;
+}
+.domande i{
+    font-size: 1.3vw;
+    margin-right: 2vw;
+}
+.container-dom{
+    position: relative;
+}
+.risposte{
+    display: none;
+    position: absolute;
+}
+.domande{
+    margin-bottom: 5vw;
+}
+.domande> a:hover .risposte{
+    display: block;
+    border: none;
 }
